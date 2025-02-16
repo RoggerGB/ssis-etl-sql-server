@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>cubo_matricula</Database>
+    <Server>DESKTOP-32FJNNS\SQLEXPRESS</Server>
+    <ConnectionString>Data Source=DESKTOP-32FJNNS\SQLEXPRESS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>TghoiOJuGcVTIaqV407PG9pZJ1Y=13/12/2022 22:41:5713/12/2022 22:41:57</TimeStamp>
+        <ID>
+          <String>DATAMART MATRICULA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>HqmeDZEB88QdissDw3b4QWrkVQo=13/12/2022 22:42:1013/12/2022 22:42:10</TimeStamp>
+        <ID>
+          <String>DATAMART MATRICULA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TBqqj1tJDzx5r3hkSjG49brvmEk=13/12/2022 22:43:0613/12/2022 22:42:24</TimeStamp>
+        <ID>
+          <String>Dim Docentes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xg5GxkKoQuFnyzrQK+7Vn1VwFkY=13/12/2022 22:43:0613/12/2022 22:42:24</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EOEsUaXRKQIHFmS2W5p7tSbZoe4=13/12/2022 22:43:0613/12/2022 22:42:24</TimeStamp>
+        <ID>
+          <String>Dim Cursos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>i0JnrhMoAhej7qvr8t+Sxn+YSoY=13/12/2022 22:43:0613/12/2022 22:42:24</TimeStamp>
+        <ID>
+          <String>Dim Alumnos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GysJ3zwLVFr3LTI5fJAj/quD504=13/12/2022 22:43:0613/12/2022 22:42:24</TimeStamp>
+        <ID>
+          <String>Dim Centros</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>WrmAkhqUuPQvHYI/p6hOtNnwJJE=13/12/2022 23:33:3413/12/2022 22:42:242gNeEKyG4/qqSDDTFPVjKz34rfE=13/12/2022 22:42:2413/12/2022 22:42:24</TimeStamp>
+        <ID>
+          <String>DATAMART MATRICULA</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>KAfLkRXty21nkyNfbBLhqdnLISs=11/12/2022 0:46:3211/12/2022 0:46:32</TimeStamp>
+      <ID>
+        <String>cubo_matricula</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-12-14T04:33:41.736667Z</LastDeployed>
+</DeploymentSnapshot>
